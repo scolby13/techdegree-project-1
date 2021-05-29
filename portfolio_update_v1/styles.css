@@ -175,12 +175,13 @@ a.social:hover {
 }
 
 
-/* Experience.html Styles */
+/* experience.html Styles */
 
-h1 {
+.experience-header {
   color: white;
   font-weight: bolder;
   text-shadow: 2px 2px 2px black;
+  padding-top: 120px;
 }
 
 li {
@@ -194,10 +195,16 @@ li img {
 }
 
 
-/* Experience.html Styles */
+/* family.html Styles */
+
+.family-header {
+  padding-top: 120px;
+}
 
 .family-pic {
-  border-radius: 10px;
+  margin: 50px 0;
+  border-radius: 20px;
+  
 }
 
 .family-pic:hover {
