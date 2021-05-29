@@ -9,23 +9,23 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: gold;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
-  color: #6633ff;
+  color: red;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgba(0, 164, 0, 0.4);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +43,8 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: red;
+    font-weight: bolder;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -52,12 +53,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: red;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/homepage_background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -69,24 +70,26 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 10%;
+  border: 5px solid green;
+  transition: transform .5s, border-color 2s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5);
+  border-color: gold;
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: slategray;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: slategray;
+  color: white;
+  font-weight: bold;
 }
 .card {
   margin: 30px;
@@ -102,6 +105,10 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
+.card-title {
+  color: red;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
@@ -110,14 +117,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: red;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: blue;
 }
 
 footer {
@@ -166,6 +173,22 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+
+/* Experience.html Styles */
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+li img {
+  border-radius: 10px;
+  height: 500px;
+}
+
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
