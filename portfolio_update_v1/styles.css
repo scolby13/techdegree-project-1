@@ -177,6 +177,12 @@ a.social:hover {
 
 /* Experience.html Styles */
 
+h1 {
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px black;
+}
+
 li {
   list-style: none;
   padding: 10px;
@@ -187,6 +193,17 @@ li img {
   height: 500px;
 }
 
+
+/* Experience.html Styles */
+
+.family-pic {
+  border-radius: 10px;
+}
+
+.family-pic:hover {
+  transform: scale(2);
+  transition: all .5s;
+}
 
 
 
