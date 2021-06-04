@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.header-nav {
+nav {
   width: 100%;
   background: rgba(0, 164, 0, 0.4);
   min-height: 30px;
